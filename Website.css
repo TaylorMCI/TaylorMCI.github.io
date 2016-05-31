@@ -1,0 +1,120 @@
+html {
+  color: white;
+  background-color: black;
+}
+
+header {
+    opacity: 0.7;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+header nav a {
+  background-color: black;
+  background-image: -webkit-linear-gradient(red, white);
+  background-image: -moz-linear-gradient(red, white);
+  background-image: -o-linear-gradient(red, white);
+  background-image: linear-gradient(red, white);
+
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  font-size: 10px;
+  margin: 5px auto;
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  width: 103px;
+}
+
+header nav a {
+  display: inline-block;
+  font-size: 20px;
+}
+
+header nav {
+  vertical-align: top;
+  float: right;
+}
+
+nav a:hover {
+  background-image: -webkit-linear-gradient(gray, white);
+  background-image: -moz-linear-gradient(gray, white);
+  background-image: -o-linear-gradient(gray, white);
+  background-image: linear-gradient(gray, white);
+}
+
+#welcome {
+  position: absolute;
+  display: inline-block;  
+  top: 75px;
+  font-size: 200%
+}
+
+h1 {
+  color: darkred;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid red;
+   position: center;
+   width: 100%;
+}
+
+td,
+th {
+  border: 1px solid Moccasin;
+  padding: 3px;
+}
+
+footer {
+  position: absolute;
+  padding: 5px;
+}
+
+#Slaking {
+  width: 50%;
+
+  position: absolute;
+  display: inline-block;  
+  font-size: 200%
+}
+
+
+#Dragonite {
+ width: 50%;
+ position: absolute;
+ display: inline-block;  
+ font-size: 200%
+  
+}
+
+#Tyranitar {
+  width: 50%;
+  position: absolute;
+  display: inline-block;  
+  font-size: 200%
+}
+
+#Salamence {
+  width: 50%;
+  position: absolute;
+  display: inline-block;  
+  font-size: 200%
+}
+
+#Metagross {
+  width: 50%;
+  position: absolute;
+  display: inline-block;  
+  font-size: 200%
+}
